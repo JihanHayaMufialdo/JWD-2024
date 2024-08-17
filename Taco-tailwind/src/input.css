@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-border{
+    @apply border border-green-800 py-4 px-10;
+}
+
+.title{
+    @apply text-center text-green-800 text-4xl font-bold uppercase mb-16;
+}
