@@ -5,3 +5,7 @@
 .text-box {
   @apply mt-2 rounded border;
 }
+
+.table-border{
+  @apply border border-green-800 py-4 px-4;
+}
