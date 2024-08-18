@@ -1,96 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="output.css">
-</head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
 
-<body>
+  <body>
     <form action="" method="post" enctype="multipart/form-data">
-        <div class="flex justify-center py-32">
-            <div class="bg-white rounded shadow-lg px-8">
-                <div class="text-center text-xl font-bold my-8">
-                    <p>Biodata Mahasiswa</p>
-                </div>
-                <div class="my-4">
-                    <label for="npm" class="font-semibold">
-                        NPM
-                    </label>
-                    <div class="text-box">
-                        <div class="m-2">
-                            <input type="text" id="npm" name="npm" placeholder="Masukkan NPM">
-                        </div>
-                    </div>
-                </div>
-                <div class="my-4">
-                    <label for="nama" class="font-semibold">
-                        Nama
-                    </label>
-                    <div  class="text-box">
-                        <div class="m-2">
-                            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama">
-                        </div>
-                    </div>
-                </div>
-                <div class="my-4">
-                    <label for="JenisKelamin" class="font-semibold">
-                        Jenis Kelamin
-                    </label>
-                    <div class="mt-2">
-                        <div class="gap-x-4">
-                            <input type="radio" id="pria" name="JenisKelamin" value="Pria">
-                            <label for="pria">
-                                Pria
-                            </label>
-                            <input type="radio" id="wanita" name="JenisKelamin" value="Wanita">
-                            <label for="wanita">
-                                Wanita
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="my-4">
-                    <label for="tanggalLahir" class="font-semibold">
-                        Tanggal Lahir
-                    </label>
-                    <div class="text-box">
-                        <div class="m-2">
-                            <input type="date" id="tanggalLahir" name="tanggalLahir">
-                        </div>
-                    </div>
-                </div>
-                <div class="my-4">
-                    <label for="alamat" class="font-semibold">
-                        Alamat
-                    </label>
-                    <div class="text-box">
-                        <div class="m-2">
-                            <input type="text" id="alamat" name="alamat" placeholder="Masukkan Alamat">
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4 mb-8">
-                    <label for="foto" class="font-semibold">
-                        Foto
-                    </label>
-                    <div class="text-box">
-                        <div class="m-2">
-                            <input type="file" name="foto" id="foto">
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-8">
-                    <button type="submit" class="bg-blue-800 text-white text-md font-semibold w-full py-1 rounded">
-                        Simpan
-                    </button>
-                </div>
+      <div class="flex justify-center py-32">
+        <div class="rounded bg-white px-8 shadow-lg">
+          <div class="my-8 text-center text-xl font-bold">
+            <p>Biodata Mahasiswa</p>
+          </div>
+          <div class="my-4">
+            <label for="npm" class="font-semibold"> NPM </label>
+            <div class="text-box">
+              <div class="m-2">
+                <input
+                  type="text"
+                  id="npm"
+                  name="npm"
+                  placeholder="Masukkan NPM"
+                />
+              </div>
             </div>
+          </div>
+          <div class="my-4">
+            <label for="nama" class="font-semibold"> Nama </label>
+            <div class="text-box">
+              <div class="m-2">
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                  placeholder="Masukkan Nama"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="my-4">
+            <label for="JenisKelamin" class="font-semibold">
+              Jenis Kelamin
+            </label>
+            <div class="mt-2">
+              <div class="gap-x-4">
+                <input
+                  type="radio"
+                  id="pria"
+                  name="JenisKelamin"
+                  value="Pria"
+                />
+                <label for="pria"> Pria </label>
+                <input
+                  type="radio"
+                  id="wanita"
+                  name="JenisKelamin"
+                  value="Wanita"
+                />
+                <label for="wanita"> Wanita </label>
+              </div>
+            </div>
+          </div>
+          <div class="my-4">
+            <label for="tanggalLahir" class="font-semibold">
+              Tanggal Lahir
+            </label>
+            <div class="text-box">
+              <div class="m-2">
+                <input type="date" id="tanggalLahir" name="tanggalLahir" />
+              </div>
+            </div>
+          </div>
+          <div class="my-4">
+            <label for="alamat" class="font-semibold"> Alamat </label>
+            <div class="text-box">
+              <div class="m-2">
+                <input
+                  type="text"
+                  id="alamat"
+                  name="alamat"
+                  placeholder="Masukkan Alamat"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mb-8 mt-4">
+            <label for="foto" class="font-semibold"> Foto </label>
+            <div class="text-box">
+              <div class="m-2">
+                <input type="file" name="foto" id="foto" />
+              </div>
+            </div>
+          </div>
+          <div class="mb-8">
+            <button
+              type="submit"
+              class="text-md w-full rounded bg-blue-800 py-1 font-semibold text-white"
+            >
+              Simpan
+            </button>
+          </div>
         </div>
+      </div>
     </form>
-</body>
-
-</html> 
+  </body>
+</html>

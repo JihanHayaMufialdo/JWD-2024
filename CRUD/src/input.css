@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.text-box{
-    @apply border rounded mt-2;
+.text-box {
+  @apply mt-2 rounded border;
 }
